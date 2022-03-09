@@ -1,4 +1,52 @@
 *{
     margin:0px
+ 
+}
+.logo {
+    background-color: aqua;
+}
+.sectionOne h2, h3 {
+    text-align: center;
+}
+.sectionOne{
+    background-color: beige;
+}
+.sections {
+    display: flex;
+    flex-direction: row;
+    line-height: 20px;
+    /* padding-left: 100px; */
+    padding-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 
+    
+}
+.sections div {
+    width: 450px;
+    margin: 30px;
+    border-style: ridge;
+    padding: 7px;
+
+}
+.sections div img {
+    width: 445px;
+    height: 150px;
+}
+.sections div h4 {
+    text-align: center;
+}
+.whatido h2 h3{
+    text-align: center;
+}
+.whatido {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color:cadetblue;
 }
