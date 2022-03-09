@@ -3,13 +3,14 @@
  
 }
 .logo {
-    background-color: aqua;
+    height: 100vh;
+    background-image:url(/images/personal_stylist_33.jpg) ;
+    background-repeat: no-repeat;
+    align-items: center;
+    padding: auto;
 }
 .sectionOne h2, h3 {
     text-align: center;
-}
-.sectionOne{
-    background-color: beige;
 }
 .sections {
     display: flex;
@@ -37,13 +38,16 @@
 .sections div h4 {
     text-align: center;
 }
+.sectionTwo{
+    text-align: center;
+}
 .whatido h2 h3{
     text-align: center;
 }
-.whatido {
+.div {
     display: flex;
     flex-direction: column;
-    line-height: 20px;
+    line-height: 30px;
     padding-top: 50px;
     flex-wrap: wrap;
 }
