@@ -7,12 +7,9 @@
     background-image:url(/images/personal_stylist_33.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
-    align-items: center;
-    padding: auto;
+    margin: 20px;
 }
-.sectionOne h2, h3 {
-    text-align: center;
-}
+
 .sections {
     display: flex;
     flex-direction: row;
@@ -63,4 +60,7 @@
     padding: 20px;
     flex-wrap: wrap;
     justify-content: center;
+}
+.photos div{
+    margin:  20px;
 }
