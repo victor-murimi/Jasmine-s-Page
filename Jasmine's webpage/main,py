@@ -1,0 +1,8 @@
+from flask import flask
+from flask_sqlalchemy import SQLAlchemy
+frorm flask.helpers import url_for
+
+app=Flask(__name__)
+
+app.config['SQLALCHEMY_DATABASE_URI'] ='postgresql://postgres:0742978312@localhost:5432/Jasmines'
+app.config['SECRET_KEY'] = 'Super_secret_key'

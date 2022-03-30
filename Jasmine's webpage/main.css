@@ -1,4 +1,66 @@
 *{
-    margin:0px
+    margin:0px;
+    font-family:"Lato",sans-serif;
+}
+.logo {
+    height: 100vh;
+    background-image:url(/images/personal_stylist_33.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
 
+.sections {
+    display: flex;
+    flex-direction: row;
+    line-height: 20px;
+    /* padding-left: 100px; */
+    padding-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.sections div {
+    width: 450px;
+    margin: 30px;
+    border-style: ridge;
+    padding: 7px;
+
+}
+.sections div img {
+    width: 445px;
+    height: 150px;
+}
+.sections div h4 {
+    text-align: center;
+}
+.sectionTwo{
+    text-align: center;
+}
+.whatido h2 h3{
+    text-align: center;
+}
+.div {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.more{
+    background-image: url(/images/personal_stylist_12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photos{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photos div{
+    margin:  20px;
 }
